@@ -1,4 +1,16 @@
 .App {
+  min-height: 90vh;
   text-align: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2em;
+  background-color: antiquewhite;
+}
+
+.no-contact{
+  padding-bottom: 42px;
+  font: 500 .9em sans-serif;
+  color: darkslategray;
 }

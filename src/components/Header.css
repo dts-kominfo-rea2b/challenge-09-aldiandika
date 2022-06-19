@@ -1,0 +1,23 @@
+/*
+//======================
+// Header Stylesheet
+//======================
+*/
+
+.base-container{
+  width: 100%;
+  min-height: 4em;
+}
+
+.title{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font: 700 1.6em sans-serif;
+  color: darkslategray;
+}
+
+.subtitle{
+  padding-bottom: 42px;
+  font: 500 .9em sans-serif;
+  color: darkslategray;
+}
