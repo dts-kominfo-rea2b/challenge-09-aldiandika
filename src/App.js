@@ -11,18 +11,17 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      {<div className="no-contact">No contact</div> &&
-        contacts.map((item) => (
-          <>
-            <Contact
-              key={item.name}
-              photo={item.photo}
-              name={item.name}
-              phone={item.phone}
-              email={item.email}
-            />
-          </>
-        ))}
+      {contacts.map((item) => (
+        <>
+          <Contact
+            key={item.name}
+            photo={item.photo}
+            name={item.name}
+            phone={item.phone}
+            email={item.email}
+          />
+        </>
+      ))}
     </div>
   );
 };
